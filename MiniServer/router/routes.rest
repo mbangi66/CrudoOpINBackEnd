@@ -1,0 +1,22 @@
+Get http://localhost:3000/subscribers
+###
+
+Get http://localhost:3000/subscribers/:id
+###
+Post http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Robert",
+    "subscribedChannel": "Bennetts Channel"
+}
+###
+PATCH  http://localhost:3000/subscribers/5e418da7fc89cd488c973eca
+
+{
+    "name":"Jon"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5e418da7fc89cd488c973eca
